@@ -1,0 +1,12 @@
+[submodule "Services/Medical.ApiGateway"]
+	path = Services/Medical.ApiGateway
+	url = https://github.com/eglisonsouza/Medical.ApiGateway.git
+[submodule "Services/Medical.Attendance"]
+	path = Services/Medical.Attendance
+	url = https://github.com/eglisonsouza/Medical.Attendance.git
+[submodule "Services/Medical.Management"]
+	path = Services/Medical.Management
+	url = https://github.com/eglisonsouza/Medical.Management.git
+[submodule "Services/Medical.User"]
+	path = Services/Medical.User
+	url = https://github.com/eglisonsouza/Medical.User.git
