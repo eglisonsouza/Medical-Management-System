@@ -10,3 +10,6 @@
 [submodule "Services/Medical.User"]
 	path = Services/Medical.User
 	url = https://github.com/eglisonsouza/Medical.User.git
+[submodule "App/Medical.Management.App"]
+	path = App/Medical.Management.App
+	url = https://github.com/eglisonsouza/Medical.Management.App.git

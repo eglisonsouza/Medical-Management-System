@@ -49,11 +49,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medical.User.Infra", "Servi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{E8BC6E2F-EC00-49E4-A6D9-4FFF7F48C626}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Essentials.HealthCheck.SqlServer", "Building Blocks\Smart.Essentials.HealthCheck.SqlServer\Smart.Essentials.HealthCheck.SqlServer.csproj", "{595CE2B9-8252-44A1-BF8D-3078B85EA03D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Essentials.HealthCheck.SqlServer", "Building Blocks\Smart.Essentials.HealthCheck.SqlServer\Smart.Essentials.HealthCheck.SqlServer.csproj", "{595CE2B9-8252-44A1-BF8D-3078B85EA03D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Essentials.Security.Cryptography", "Building Blocks\Smart.Essentials.Security.Cryptography\Smart.Essentials.Security.Cryptography.csproj", "{30DEE335-7EAF-4322-B487-935EE6970CD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Essentials.Security.Cryptography", "Building Blocks\Smart.Essentials.Security.Cryptography\Smart.Essentials.Security.Cryptography.csproj", "{30DEE335-7EAF-4322-B487-935EE6970CD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Essentials.Security.Jwt", "Building Blocks\Smart.Essentials.Security.Jwt\Smart.Essentials.Security.Jwt.csproj", "{490B7931-BA85-40EA-8DEF-A90EC1AAE907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Essentials.Security.Jwt", "Building Blocks\Smart.Essentials.Security.Jwt\Smart.Essentials.Security.Jwt.csproj", "{490B7931-BA85-40EA-8DEF-A90EC1AAE907}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Essentials.Core.ResultDataModel", "Building Blocks\Smart.Essentials.Core.ResultDataModel\Smart.Essentials.Core.ResultDataModel.csproj", "{99477E28-630D-4979-B905-E919BA9DF2E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{44B33950-CA52-4FB1-B1D1-BE840FD76463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medical Management", "Medical Management", "{FC8BB48B-3360-43FB-A0BE-BAE4D2F530A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medical.Management", "App\Medical.Management.App\Medical.Management\Medical.Management.csproj", "{14CD6428-A948-477C-BC38-0DC5DC99838D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +149,16 @@ Global
 		{490B7931-BA85-40EA-8DEF-A90EC1AAE907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{490B7931-BA85-40EA-8DEF-A90EC1AAE907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{490B7931-BA85-40EA-8DEF-A90EC1AAE907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99477E28-630D-4979-B905-E919BA9DF2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99477E28-630D-4979-B905-E919BA9DF2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99477E28-630D-4979-B905-E919BA9DF2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99477E28-630D-4979-B905-E919BA9DF2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CD6428-A948-477C-BC38-0DC5DC99838D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CD6428-A948-477C-BC38-0DC5DC99838D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CD6428-A948-477C-BC38-0DC5DC99838D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{14CD6428-A948-477C-BC38-0DC5DC99838D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CD6428-A948-477C-BC38-0DC5DC99838D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CD6428-A948-477C-BC38-0DC5DC99838D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +188,9 @@ Global
 		{595CE2B9-8252-44A1-BF8D-3078B85EA03D} = {E8BC6E2F-EC00-49E4-A6D9-4FFF7F48C626}
 		{30DEE335-7EAF-4322-B487-935EE6970CD5} = {E8BC6E2F-EC00-49E4-A6D9-4FFF7F48C626}
 		{490B7931-BA85-40EA-8DEF-A90EC1AAE907} = {E8BC6E2F-EC00-49E4-A6D9-4FFF7F48C626}
+		{99477E28-630D-4979-B905-E919BA9DF2E3} = {E8BC6E2F-EC00-49E4-A6D9-4FFF7F48C626}
+		{FC8BB48B-3360-43FB-A0BE-BAE4D2F530A0} = {44B33950-CA52-4FB1-B1D1-BE840FD76463}
+		{14CD6428-A948-477C-BC38-0DC5DC99838D} = {FC8BB48B-3360-43FB-A0BE-BAE4D2F530A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBD302AA-B4CF-4DDB-9AEA-F40606A28A45}
