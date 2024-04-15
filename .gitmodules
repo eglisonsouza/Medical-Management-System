@@ -13,3 +13,9 @@
 [submodule "App/Medical.Management.App"]
 	path = App/Medical.Management.App
 	url = https://github.com/eglisonsouza/Medical.Management.App.git
+[submodule "Services/Smart.Payment"]
+	path = Services/Smart.Payment
+	url = https://github.com/eglisonsouza/Smart.Payment.git
+[submodule "Building Blocks/Smart.Essentials.HttpRequest"]
+	path = Building Blocks/Smart.Essentials.HttpRequest
+	url = https://eglisonsouza2019@dev.azure.com/eglisonsouza2019/SmartSystem/_git/Smart.Essentials.HttpRequest
