@@ -73,7 +73,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Essentials.HttpReques
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Payment.Core", "Services\Smart.Payment\Smart.Payment.Core\Smart.Payment.Core.csproj", "{1CAB9AD5-FA37-4ED3-ADB1-334EE5DCC116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Payment.Application", "Services\Smart.Payment\Smart.Payment.Application\Smart.Payment.Application.csproj", "{196AC9C6-087D-4C00-8459-AFF30ECF7781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Payment.Application", "Services\Smart.Payment\Smart.Payment.Application\Smart.Payment.Application.csproj", "{196AC9C6-087D-4C00-8459-AFF30ECF7781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
